@@ -1,0 +1,179 @@
+body {
+    background-color: rgb(26, 25, 43);
+    color: white;
+    text-align: center;
+}
+
+div.status-bar-elements a {
+    text-decoration: none;
+    color: rgb(80, 65, 177);
+}
+
+#status-bar {
+    width: calc(95%);
+    font-size: larger;
+    background-color: rgb(34, 30, 104);
+    height: 6vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-bottom: 100px;
+
+    color: blue;
+
+}
+
+.scroll-link {
+    scroll-behavior: smooth;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+div.status-bar-elements-container {
+    display: flex;
+}
+
+div.status-bar-elements {
+    width: 14%;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+div.intro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: rgb(34, 30, 104);
+    margin: auto;
+    border-radius: 25px;
+    width: 77%;
+}
+
+#intro-name {
+    color: rgb(95, 173, 191);
+    font-size: 50px;
+}
+
+#my-title {
+    color: rgb(95, 173, 191);
+    font-size: 30px;
+    margin-bottom: 4%;
+}
+
+div.intro-text {
+    width: 60%;
+    padding-left: 80px;
+    margin-right: 0%;
+    color: rgb(80, 65, 177);
+}
+
+#intro-description {
+    border-top: 2px solid black;
+    padding-top: 4%;
+    font-size: 25px;
+    line-height: 40px;
+
+}
+
+
+
+#intro-photo {
+    width: 50%;
+}
+
+#intro-photo img {
+    margin-top: 50px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+#intorduction pre {
+    text-align: left;
+}
+
+div.details {
+    background-color: rgb(34, 30, 104);
+    font-size: 50px;
+    width: 70%;
+    margin: auto;
+    border-radius: 25px;
+    margin-top: 4%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    color: rgb(95, 173, 191);
+}
+
+
+div.details-description a {
+    text-decoration: none;
+    color: rgb(80, 65, 177);
+}
+
+div.details-description {
+    margin-top: 20px;
+    font-size: 25px;
+    line-height: 45px;
+    border-top: 2px solid black;
+    color: rgb(80, 65, 177);
+}
+
+#links {
+    margin-top: 40px;
+}
+
+#links a {
+    margin-left: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a img {
+    height: 45px;
+    width: 45px;
+}
+
+#contact-form {
+    width: 30%;
+    font-size: 15px;
+    max-width: 40%;
+    margin: auto;
+    display: grid;
+    gap: 10px;
+}
+
+form label {
+    font-size: large;
+    text-align: left;
+    margin-top: 10px;
+    color: rgb(80, 65, 177);
+
+}
+
+input {
+    height: 30px;
+}
+
+#contact-submit-button {
+    background-color: rgb(70, 62, 221);
+    margin-top: 10px;
+    height: 50px;
+    font-size: large;
+    border-style: none;
+    border-radius: 15px;
+}
+
+#ending-content {
+    margin-top: 10%;
+    background-color: rgb(34, 30, 104);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 13px;
+}
